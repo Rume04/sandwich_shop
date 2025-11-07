@@ -129,6 +129,9 @@ class OrderItemDisplay extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text('This is a placeholder for OrderItemDisplay');
+    return Container(
+      color: Colors.orange,
+      child: Text('This is a placeholder for OrderItemDisplay'),
+    );
   }
 }
